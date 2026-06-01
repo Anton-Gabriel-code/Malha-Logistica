@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "cenario": "basico",
+        "total_encomendas": 10,
+        "total_cidades": 5,
+        "total_rotas": 4
+    },
+    "encomendas": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004,
+        100005,
+        100006,
+        100007,
+        100008,
+        100009
+    ],
+    "cidades": [
+        "Cidade_0",
+        "Cidade_1",
+        "Cidade_2",
+        "Cidade_3",
+        "Cidade_4"
+    ],
+    "rotas": [
+        {
+            "origem": "Cidade_0",
+            "destino": "Cidade_1",
+            "distancia": 10
+        },
+        {
+            "origem": "Cidade_1",
+            "destino": "Cidade_2",
+            "distancia": 10
+        },
+        {
+            "origem": "Cidade_2",
+            "destino": "Cidade_3",
+            "distancia": 10
+        },
+        {
+            "origem": "Cidade_3",
+            "destino": "Cidade_4",
+            "distancia": 10
+        }
+    ],
+    "analise_memoria_teorica": {
+        "vertices": 5,
+        "arestas": 4,
+        "bytes_estimados_matriz": 100,
+        "bytes_estimados_lista": 136,
+        "diferenca_bytes": 36,
+        "estrutura_mais_eficiente": "Matriz de Adjacência"
+    }
+}

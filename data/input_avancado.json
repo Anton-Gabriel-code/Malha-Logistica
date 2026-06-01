@@ -1,0 +1,152 @@
+{
+    "metadata": {
+        "cenario": "avancado",
+        "total_encomendas": 50,
+        "total_cidades": 15,
+        "total_rotas": 13
+    },
+    "encomendas": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004,
+        100005,
+        100006,
+        100007,
+        100008,
+        100009,
+        100010,
+        100011,
+        100012,
+        100013,
+        100014,
+        100015,
+        100016,
+        100017,
+        100018,
+        100019,
+        100020,
+        100021,
+        100022,
+        100023,
+        100024,
+        100025,
+        100026,
+        100027,
+        100028,
+        100029,
+        100030,
+        100031,
+        100032,
+        100033,
+        100034,
+        100035,
+        100036,
+        100037,
+        100038,
+        100039,
+        100040,
+        100041,
+        100042,
+        100043,
+        100044,
+        100045,
+        100046,
+        100047,
+        100048,
+        100049
+    ],
+    "cidades": [
+        "Cidade_0",
+        "Cidade_1",
+        "Cidade_2",
+        "Cidade_3",
+        "Cidade_4",
+        "Cidade_5",
+        "Cidade_6",
+        "Cidade_7",
+        "Cidade_8",
+        "Cidade_9",
+        "Cidade_10",
+        "Cidade_11",
+        "Cidade_12",
+        "Cidade_13",
+        "Cidade_14"
+    ],
+    "rotas": [
+        {
+            "origem": "Cidade_0",
+            "destino": "Cidade_1",
+            "distancia": 5
+        },
+        {
+            "origem": "Cidade_1",
+            "destino": "Cidade_2",
+            "distancia": 5
+        },
+        {
+            "origem": "Cidade_2",
+            "destino": "Cidade_0",
+            "distancia": 5
+        },
+        {
+            "origem": "Cidade_0",
+            "destino": "Cidade_1",
+            "distancia": 5
+        },
+        {
+            "origem": "Cidade_3",
+            "destino": "Cidade_4",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_4",
+            "destino": "Cidade_5",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_5",
+            "destino": "Cidade_6",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_6",
+            "destino": "Cidade_7",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_7",
+            "destino": "Cidade_8",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_8",
+            "destino": "Cidade_9",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_9",
+            "destino": "Cidade_10",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_10",
+            "destino": "Cidade_11",
+            "distancia": 15
+        },
+        {
+            "origem": "Cidade_11",
+            "destino": "Cidade_12",
+            "distancia": 15
+        }
+    ],
+    "analise_memoria_teorica": {
+        "vertices": 15,
+        "arestas": 13,
+        "bytes_estimados_matriz": 900,
+        "bytes_estimados_lista": 432,
+        "diferenca_bytes": 468,
+        "estrutura_mais_eficiente": "Lista de Adjacência"
+    }
+}

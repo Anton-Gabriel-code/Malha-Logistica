@@ -5,10 +5,14 @@ Este projeto foi desenvolvido como parte dos requisitos acadêmicos para a disci
 ---
 
 ## 👥 Membros do Projeto
-[Antônio Gabriel]((https://github.com/Anton-Gabriel-code))
-[Danilo Soares]((https://github.com/danilosmatos))
-[Eudes de Oliveira]((https://github.com/eudesolv))
-[Vinicius Augusto]((https://github.com/Vinicius1213))
+[Antônio Gabriel](https://github.com/Anton-Gabriel-code)
+
+[Danilo Soares](https://github.com/danilosmatos)
+
+[Eudes de Oliveira](https://github.com/eudesolv)
+
+[Vinicius Augusto](https://github.com/Vinicius1213)
+
 
 ---
 

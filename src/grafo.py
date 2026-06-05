@@ -11,6 +11,10 @@
         self.vizinhos[u].append(v)
         self.vizinhos[v].append(u)
 
+    def carregar_rotas(self, rotas):
+        for rota in rotas:
+            self.add_aresta(rota["origem"], rota["destino"])
+
     def listar_vizinhos(self):
         for no in self.nos:
             print(f"{no} -> {self.vizinhos[no]}")
